@@ -26,3 +26,9 @@ div.box-wrap .box:nth-child(-n+2){
 div.box-wrap .box:nth-last-child(-n+2){
 	background: blue;
 }
+
+
+div.box-wrap .box + .box:last-child{
+	background: red;
+}
+
