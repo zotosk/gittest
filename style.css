@@ -1,0 +1,20 @@
+section{
+	border: 1px solid red;
+}
+.box{
+	
+	height: 100px;
+	width: 100px;
+	background: green;
+	margin: 10px;
+	float: left;
+}
+
+.clear-fix:after{
+	content: ".";
+	height: 0px;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
